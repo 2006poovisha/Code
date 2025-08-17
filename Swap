@@ -1,0 +1,15 @@
+public class SwapScores {
+    public static void main(String[] args) {
+        int player1Score = 50;
+        int player2Score = 80;
+        System.out.println("Before swapping:");
+        System.out.println("Player 1 Score: " + player1Score);
+        System.out.println("Player 2 Score: " + player2Score);
+        int temp = player1Score;
+        player1Score = player2Score;
+        player2Score = temp;
+        System.out.println("\nAfter swapping:");
+        System.out.println("Player 1 Score: " + player1Score);
+        System.out.println("Player 2 Score: " + player2Score);
+    }
+}
